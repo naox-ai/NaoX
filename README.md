@@ -1,82 +1,57 @@
-# AgentMesh - TARS AI
+# NaoX
 
-## Web3 AI Agent Platform & Decentralized MarketPlace
+## Decentralized AI-Powered Finance, Gaming, and Social Interaction Ecosystem
 
-> AgentMesh is a Web3-native AI Agent Platform that enables developers to build, deploy, discover, and monetize AI agents using decentralized GPU infrastructure.
-The platform combines artificial intelligence, blockchain technology, and decentralized computing into a unified ecosystem where AI agents become programmable digital services that can be securely deployed, integrated, and commercialized.
-AgentMesh removes the complexity of managing GPU infrastructure, deployment pipelines, API hosting, and scalability, allowing developers to focus on building intelligent applications while providing businesses with production-ready AI services through a secure marketplace.
-Whether you're developing AI assistants, blockchain automation tools, trading agents, research assistants, enterprise workflows, or gaming agents, AgentMesh provides the infrastructure needed to launch and scale AI applications within the Web3 ecosystem.
+> NaoX is a next-generation ecosystem built on the **NaoX Protocol**, using decentralized AI. It supports multiple blockchains like **Ethereum (EVM)**, **Solana**, and more. Play-to-Earn (P2E) mechanics let you earn real crypto rewards.
 
 ---
 
-<p align="center">
-  <img src="./frontend/public/assets/brand.png"  />
-</p>
+## Current Features
 
----
-## Key Features
-
-- **AI Agent Marketplace**: Discover, publish, and manage AI agents through a unified marketplace.
-- **AI Agent Deployment**: Deploy AI agents with a streamlined deployment workflow.
-- **Decentralized GPU Runtime**: Execute AI workloads using decentralized GPU infrastructure.
-- **Web3 Authentication**: Authenticate users through blockchain wallets.
-- **AI Agent Monetization**: Allow developers to generate revenue from their AI applications.
-- **API Gateway**: Automatically expose secure APIs for every deployed AI agent.
-- **Developer Dashboard**: Manage AI agents from a centralized workspace.
-- **Analytics**: Monitor AI agent performance in real time.
-- **Blockchain Integration**: Blockchain powers the Web3 layer of AgentMesh.
-
-> AI inference runs on decentralized GPU infrastructure, while blockchain provides ownership, authentication, payments, and transparency.
+- **Decentralized AI**
+- **Multi-Chain Support**: Play on **Ethereum (EVM)**, **Solana**, and other supported blockchains. Your assets and rewards can move between chains.
+- **Play-to-Earn (P2E)**: Earn real **crypto rewards** while playing. Rewards are powered by the NaoX's AI to make payouts fair.
+- **NFT Avatars**: Create and use **NFT avatars**, supported on Ethereum, and other networks.
+- **On-Chain Game Logic**: All gameplay is controlled by smart contracts.
+- **Token Integration**: Stake and earn with native tokens across different blockchains.
+- **Mobile and Desktop Ready**: The platform works on both **desktop** and **mobile** devices.
 
 ---
 
 ## Coming Soon
 
-- AI Agent SDK
-- AgentMesh CLI
--AI Agent Templates
-- AI Workflow Builder
-- Team Workspaces
-- Enterprise Organizations
-- Agent-to-Agent Communication
-- AI Plugin Marketplace
-- AI Model Registry
-- Multi-Agent Orchestration
-- Community Ratings & Reviews
-- Crypto Payment Gateway
-- Revenue Sharing Automation
-- Staking & Governance
-- Cross-chain Support
-- Public REST API
-- GraphQL API
-- Developer Portal
+- **More Games**: New games like **Blackjack**, **Roulette**, **Slots**, and others. All powered by decentralized AI.
+- **Tournaments**: Compete in cross-chain tournaments with prize pools. AI will manage the events and rewards.
+- **Social Features**: Chat, add friends, and interact with other players across different blockchains.
+- **Better P2E**: Improved reward systems that will work across all blockchains with the help of AI.
 
---- 
 
-[![React](https://img.shields.io/badge/React-18-blue?logo=react)](#)
-[![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)](#)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](#)
-[![Solidity](https://img.shields.io/badge/Solidity-Smart_Contracts-black?logo=solidity)](#)
-[![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791?logo=postgresql)](#)
-[![Redis](https://img.shields.io/badge/Redis-Cache-red?logo=redis)](#)
-[![Socket.IO](https://img.shields.io/badge/Socket.IO-Realtime-black?logo=socket.io)](#)
+[![React](https://img.shields.io/badge/React-16.13.1-61dafb?logo=react)](#)
+[![Node.js](https://img.shields.io/badge/Node.js-Express-43853d?logo=node.js)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue?logo=typescript)](#)
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb)](#)
+[![Socket.IO](https://img.shields.io/badge/Socket.IO-4.8.1-black?logo=socket.io)](#)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.1.3-purple?logo=bootstrap)](#)
+[![Styled Components](https://img.shields.io/badge/Styled_Components-5.1.1-DB7093?logo=styled-components)](#)
+[![Axios](https://img.shields.io/badge/Axios-1.4.0-5A29E4?logo=axios)](#)
+
 
 ## Quick Start
 
 ```bash
 git clone <git-repository-url>
-cd <Project Directory>
+cd <project directory name>
 
-# Install root dependencies
+# Install and start backend dependencies
 npm install
 npm start
 
-# Open new Terminal | Go to the client folder and install its dependencies
-cd frontend
+# Install frontend dependencies 
+cd client
 npm install
+cd ..
 
-# Start
+# Run both with one command from the root:
 npm start
 ```
 
@@ -88,10 +63,27 @@ npm start
 - **Client storage** – Tokens are pushed into Axios’ default headers via `client/src/helpers/setAuthToken.js`. Persist them in `localStorage`/`sessionStorage` from your auth screen and call `setAuthToken(token)` on boot.
 - **Protected routes** – `middleware/auth.js` expects the token in the `x-auth-token` header and injects `req.user`. Use the middleware on any route that needs authenticated identity.
 
-## License
+## Contributing Guidelines
 
-This project is currently under active development.
+### Pre-PR Checklist
 
-License information will be published before the first public release.
+- [ ] Branch is updated with `main`  
+- [ ] No linting errors
+- [ ] No stray console logs or unused variables  
+- [ ] UI changes tested on desktop and mobile  
+- [ ] Added documentation or comments where needed  
+- [ ] Any new `.env` variables are documented  
 
+### Pull Request Rules
+- Use clear PR titles:
+  - `feat: add tournament lobby UI`
+- PR description must include:
+  - What changed  
+  - Why it changed  
+  - How to test  
+  - Screenshots for UI updates  
+- Tag related issues/tasks.
+
+## Confidentiality
+This repository is proprietary to **NaoX**.
 
