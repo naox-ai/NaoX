@@ -3,8 +3,11 @@
   "editor.minimap.enabled": false, // Disables the minimap
   "editor.wordWrap": "off", // Enables word wrapping
   "files.exclude": {
-    // Hides unnecessary files from the file explorer
-    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.cache": true,
+    "**/.vscode": true,
+  },
+  "search.exclude": {
     "**/node_modules": true
   },
   "editor.tabSize": 2, // Sets tab size to 2 spaces

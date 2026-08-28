@@ -21,7 +21,8 @@ const configureMiddleware = (app) => {
   // Helmet improves API security by setting some additional header checks
   // app.use(helmet());
 
-   app.use(xssClean());
+  // Additional protection against XSS attacks
+  app.use(xssClean());
 
   // Add rate limit to API (100 requests per 10 mins)
   app.use(
