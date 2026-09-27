@@ -1,29 +1,31 @@
 # NaoX
 
-## Decentralized AI-Powered Finance, Gaming, and Social Interaction Ecosystem
+## Quantum-Resistant Blockchain and Decentralized Infrastructure for AI
 
-> NaoX is a next-generation ecosystem built on the **NaoX Protocol**, using decentralized AI. It supports multiple blockchains like **Ethereum (EVM)**, **Solana**, and more. Play-to-Earn (P2E) mechanics let you earn real crypto rewards.
+> NaoX is a next-generation, EVM-compatible Layer 1 blockchain built with **post-quantum cryptography** to help secure digital assets, decentralized applications, and connected infrastructure against future quantum-computing threats. NaoX provides a foundation for secure smart contracts, distributed validation, and the next generation of decentralized applications, including AI-powered systems and agents.
 
 ---
 
 ## Current Features
 
-- **Decentralized AI**
+- **Post-Quantum Cryptography**: 
+- **EVM Compatibility**: Support for Ethereum-compatible smart contracts and familiar development workflows, enabling developers to build and deploy decentralized applications.
+- **Decentralized Infrastructure for AI**: A foundation for developing secure, decentralized AI-powered applications, services, and agents.
+- **Quantum-Resistant Layer 1 Blockchain**: A dedicated blockchain infrastructure designed to provide a more resilient foundation for decentralized applications and digital assets.
 - **Multi-Chain Support**: Play on **Ethereum (EVM)**, **Solana**, and other supported blockchains. Your assets and rewards can move between chains.
-- **Play-to-Earn (P2E)**: Earn real **crypto rewards** while playing. Rewards are powered by the NaoX's AI to make payouts fair.
-- **NFT Avatars**: Create and use **NFT avatars**, supported on Ethereum, and other networks.
-- **On-Chain Game Logic**: All gameplay is controlled by smart contracts.
-- **Token Integration**: Stake and earn with native tokens across different blockchains.
-- **Mobile and Desktop Ready**: The platform works on both **desktop** and **mobile** devices.
+- **Smart Contract Support**: On-chain application logic and programmable functionality for building decentralized services and blockchain-based solutions.
+- **Distributed Network Validation**: A decentralized infrastructure model designed to support network participation, transaction verification, and resilience.
+- **Digital Asset Security**: : Post-quantum security capabilities designed to strengthen the protection of blockchain transactions and digital assets.
 
 ---
 
 ## Coming Soon
 
-- **More Games**: New games like **Blackjack**, **Roulette**, **Slots**, and others. All powered by decentralized AI.
-- **Tournaments**: Compete in cross-chain tournaments with prize pools. AI will manage the events and rewards.
-- **Social Features**: Chat, add friends, and interact with other players across different blockchains.
-- **Better P2E**: Improved reward systems that will work across all blockchains with the help of AI.
+- **AI-Powered Decentralized Applications**: Expand the ecosystem with applications and services that combine decentralized infrastructure with AI capabilities.
+- **Secure AI Agents:**: Support the development of AI agents that interact with blockchain networks, smart contracts, and decentralized services.
+- **Developer Tools and SDKs**: Enhance the developer experience with documentation, libraries, and integration tools for building on NaoX, as they become available.
+- **Expanded Infrastructure Integrations**: Broaden integrations across decentralized applications, connected devices, and distributed infrastructure.
+- **Ecosystem Expansion**: Enable more developers, infrastructure providers, and application builders to participate in the NaoX ecosystem.
 
 
 [![React](https://img.shields.io/badge/React-16.13.1-61dafb?logo=react)](#)
@@ -47,9 +49,8 @@ npm install
 npm start
 
 # Install frontend dependencies 
-cd client
+cd frontend
 npm install
-cd ..
 
 # Run both with one command from the root:
 npm start

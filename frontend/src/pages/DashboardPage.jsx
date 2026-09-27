@@ -263,6 +263,8 @@ function EmptyState({ title, description, action }) {
   );
 }
 
+// add hashHue function
+
 function hashHue(str) {
   let h = 0;
   for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) % 360;
