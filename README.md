@@ -1,8 +1,8 @@
-# OpenGradient
+# NaoX
 
 ## Decentralized AI-Powered Finance, Gaming, and Social Interaction Ecosystem
 
-> OpenGradient is a next-generation ecosystem built on the **OpenGradient**, using decentralized AI. It supports multiple blockchains like **Ethereum (EVM)**, **Solana**, and more. Play-to-Earn (P2E) mechanics let you earn real crypto rewards.
+> NaoX is a next-generation ecosystem built on the **NaoX Protocol**, using decentralized AI. It supports multiple blockchains like **Ethereum (EVM)**, **Solana**, and more. Play-to-Earn (P2E) mechanics let you earn real crypto rewards.
 
 ---
 
@@ -10,7 +10,7 @@
 
 - **Decentralized AI**
 - **Multi-Chain Support**: Play on **Ethereum (EVM)**, **Solana**, and other supported blockchains. Your assets and rewards can move between chains.
-- **Play-to-Earn (P2E)**: Earn real **crypto rewards** while playing. Rewards are powered by the OpenGradient's AI to make payouts fair.
+- **Play-to-Earn (P2E)**: Earn real **crypto rewards** while playing. Rewards are powered by the NaoX's AI to make payouts fair.
 - **NFT Avatars**: Create and use **NFT avatars**, supported on Ethereum, and other networks.
 - **On-Chain Game Logic**: All gameplay is controlled by smart contracts.
 - **Token Integration**: Stake and earn with native tokens across different blockchains.
@@ -85,5 +85,5 @@ npm start
 - Tag related issues/tasks.
 
 ## Confidentiality
-This repository is proprietary to **OpenGradient**.
+This repository is proprietary to **NaoX**.
 
