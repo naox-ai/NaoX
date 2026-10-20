@@ -2,7 +2,7 @@
 
 ## Quantum-Resistant Blockchain and Decentralized Infrastructure for AI
 
-> NaoX is a next-generation, EVM-compatible Layer 1 blockchain built with **post-quantum cryptography** to help secure digital assets, decentralized applications, and connected infrastructure against future quantum-computing threats. NaoX provides a foundation for secure smart contracts, distributed validation, and the next generation of decentralized applications, including AI-powered systems and agents.
+> **NaoX** is a next-generation, EVM-compatible Layer 1 blockchain built with **post-quantum cryptography** to help secure digital assets, decentralized applications, and connected infrastructure against future quantum-computing threats. **NaoX** provides a foundation for secure smart contracts, distributed validation, and the next generation of decentralized applications, including AI-powered systems and agents.
 
 ---
 
